@@ -1,68 +1,107 @@
 # WCAG 2.2 Target Size & Contrast Heuristic Tester
 
-A highly polished, production-ready developer utility designed to test user interfaces for **WCAG 2.2 accessibility compliance**. Built as part of a technical trial task, this single-page React application provides instantaneous feedback for core digital accessibility metrics, ensuring products are inclusive and ready for modern web standards.
+A modern accessibility testing utility that helps developers evaluate user interfaces against key WCAG 2.2 guidelines. This tool provides instant feedback for tap target sizing, color contrast compliance, and accessibility reporting in a clean, developer-friendly interface.
 
-🚀 **Live Deployment:** [View the Live Tool on Vercel](https://wcag-compliance-tester.vercel.app/)
+## Live Demo
 
----
-
-## 🎨 Key Features
-
-The application incorporates three real-time micro-utilities housed within a unified, modern dark-themed user interface:
-
-1. **Utility 01: Interactive Tap Target Validator (WCAG 2.5.5)**
-   * Dynamically tracks target clickability sizes based on custom inputs for Element Width, Height, and Padding.
-   * Renders a real-time visual bounding box preview of the total touch area.
-   * Evaluates metrics automatically to output an immediate **PASS / FAIL** alert against the strict $44 \times 44\text{px}$ standard.
-
-2. **Utility 02: Contrast Ratio Calculator (WCAG 1.4.3)**
-   * Evaluates the relative luminance contrast between custom foreground text and background colors via text or color-picker fields.
-   * Dynamically visualizes a real-time sample component displaying standard body text.
-   * Provides absolute validation states across **WCAG AA Normal Text (4.5:1 min)**, **WCAG AA Large Text (3:1 min)**, and **WCAG AAA Normal Text (7:1 min)** guidelines.
-
-3. **Utility 03: Markdown Audit Exporter**
-   * Automatically synchronizes and compiles active testing states into a cleanly formatted markdown table.
-   * Built with a one-click **"Copy Markdown to Clipboard"** workflow, tailored for immediate integration into GitHub Pull Request descriptions, developer logs, or compliance issues.
+🔗 https://wcag-compliance-tester.vercel.app/
 
 ---
 
-## 💻 Tech Stack
+## Features
 
-* **Frontend Framework:** React (Vite-powered for optimized, ultra-fast builds)
-* **Styling:** Tailwind CSS (Custom dark-mode aesthetic with accessible color palettes)
-* **Icons:** Lucide React
-* **AI Pair Programmer:** Claude 4.6 (Utilized for UI structure planning, code generation, and layout heuristics)
+### 1. Interactive Tap Target Validator (WCAG 2.5.5)
+
+* Input element width, height, and padding
+* Real-time touch target visualization
+* Automatic PASS / FAIL validation
+* Tests against the WCAG 2.2 recommended minimum target size of 44×44 pixels
+
+### 2. Contrast Ratio Calculator (WCAG 1.4.3)
+
+* Select foreground and background colors
+* Calculate contrast ratio instantly
+* Live preview of text appearance
+* Accessibility validation for:
+
+  * WCAG AA Normal Text (4.5:1)
+  * WCAG AA Large Text (3:1)
+  * WCAG AAA Normal Text (7:1)
+
+### 3. Markdown Accessibility Report Generator
+
+* Generates structured markdown reports
+* One-click copy to clipboard
+* Suitable for GitHub Pull Requests, accessibility audits, and compliance documentation
 
 ---
 
-## 🛠️ How to Run Locally
+## Tech Stack
 
-Follow these quick steps to get the environment running on your machine:
+* React (Vite)
+* Tailwind CSS
+* Lucide React
+* JavaScript
 
-1. **Clone the Repository:**
+### AI-Assisted Development
+
+* Claude 4.6 was used for UI planning, accessibility heuristics, and development assistance.
+
+---
+
+## Local Setup
+
+### Clone the Repository
+
 ```bash
-   git clone [https://github.com/Ananyav08/wcag-compliance-tester.git](https://github.com/Ananyav08/wcag-compliance-tester.git)
-   cd wcag-compliance-tester
+git clone https://github.com/Ananyav08/wcag-compliance-tester.git
+cd wcag-compliance-tester
+```
 
-2. **Install Dependencies:**
+### Install Dependencies
+
 ```bash
-   npm install
+npm install
+```
 
-3. **Start the Development Server:**
+### Start Development Server
+
 ```bash
-   npm run dev
+npm run dev
+```
 
-Open your browser and navigate to http://localhost:5173/ to view the application locally.
+Open:
 
-Production Deployment
-The project is structured for seamless, single-click hosting using Vercel. To trigger a production deployment directly from your terminal, run:
+```text
+http://localhost:5173
+```
 
-Bash
+---
+
+## Production Build
+
+```bash
 npm run build
+```
+
+Deploy using Vercel:
+
+```bash
 npx vercel --prod
-✒️ Author & Credits
-Developer: Ananya Vishwakarma
+```
 
-Email: anvishwakarma52@gmail.com
+---
 
-Target Organization: Developed exclusively as a trial assessment for Digital Heroes.
+## Developer Information
+
+Name: Ananya Vishwakarma
+
+Email: [anvishwakarma52@gmail.com](mailto:anvishwakarma52@gmail.com)
+
+---
+
+## Built for Digital Heroes
+
+This project was developed as part of the Digital Heroes Custom Software Developer Trial Task.
+
+Website: https://digitalheroesco.com
