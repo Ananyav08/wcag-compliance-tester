@@ -2,7 +2,7 @@
 
 A highly polished, production-ready developer utility designed to test user interfaces for **WCAG 2.2 accessibility compliance**. Built as part of a technical trial task, this single-page React application provides instantaneous feedback for core digital accessibility metrics, ensuring products are inclusive and ready for modern web standards.
 
-🚀 **Live Deployment:** [View the Live Tool on Vercel](https://wcag-compliance-tester.vercel.app)
+🚀 **Live Deployment:** https://wcag-compliance-tester.vercel.app/
 
 ---
 
@@ -31,6 +31,7 @@ The application incorporates three real-time micro-utilities housed within a uni
 * **Frontend Framework:** React (Vite-powered for optimized, ultra-fast builds)
 * **Styling:** Tailwind CSS (Custom dark-mode aesthetic with accessible color palettes)
 * **Icons:** Lucide React
+* **AI Pair Programmer:** Claude 4.6 (Utilized for UI structure planning, code generation, and layout heuristics)
 
 ---
 
