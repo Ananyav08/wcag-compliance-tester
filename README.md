@@ -43,18 +43,18 @@ Follow these quick steps to get the environment running on your machine:
 ```bash
    git clone [https://github.com/Ananyav08/wcag-compliance-tester.git](https://github.com/Ananyav08/wcag-compliance-tester.git)
    cd wcag-compliance-tester
-1. **Clone the Repository:**
-Install Dependencies:
 
-Bash
+2. **Install Dependencies:**
+```bash
    npm install
-Start the Development Server:
 
-Bash
+3. **Start the Development Server:**
+```bash
    npm run dev
+
 Open your browser and navigate to http://localhost:5173/ to view the application locally.
 
-🌐 Production Deployment
+Production Deployment
 The project is structured for seamless, single-click hosting using Vercel. To trigger a production deployment directly from your terminal, run:
 
 Bash
