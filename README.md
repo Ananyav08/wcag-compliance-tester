@@ -1,6 +1,6 @@
-# WCAG 2.2 Target Size & Contrast Heuristic Tester
+# WCAG 2.2 Accessibility Heuristic Tester
 
-A modern accessibility testing utility that helps developers evaluate user interfaces against key WCAG 2.2 guidelines. This tool provides instant feedback for tap target sizing, color contrast compliance, and accessibility reporting in a clean, developer-friendly interface.
+WCAG 2.2 Accessibility Heuristic Tester is a developer utility built to simplify accessibility validation. It provides real-time analysis of tap target sizes, color contrast ratios, and generates shareable audit reports to help teams build more inclusive and standards-compliant user interfaces.
 
 ## Live Demo
 
