@@ -2,7 +2,7 @@
 
 A highly polished, production-ready developer utility designed to test user interfaces for **WCAG 2.2 accessibility compliance**. Built as part of a technical trial task, this single-page React application provides instantaneous feedback for core digital accessibility metrics, ensuring products are inclusive and ready for modern web standards.
 
-🚀 **Live Deployment:** https://wcag-compliance-tester.vercel.app/
+🚀 **Live Deployment:** [View the Live Tool on Vercel](https://wcag-compliance-tester.vercel.app/)
 
 ---
 
@@ -43,3 +43,26 @@ Follow these quick steps to get the environment running on your machine:
 ```bash
    git clone [https://github.com/Ananyav08/wcag-compliance-tester.git](https://github.com/Ananyav08/wcag-compliance-tester.git)
    cd wcag-compliance-tester
+1. **Clone the Repository:**
+Install Dependencies:
+
+Bash
+   npm install
+Start the Development Server:
+
+Bash
+   npm run dev
+Open your browser and navigate to http://localhost:5173/ to view the application locally.
+
+🌐 Production Deployment
+The project is structured for seamless, single-click hosting using Vercel. To trigger a production deployment directly from your terminal, run:
+
+Bash
+npm run build
+npx vercel --prod
+✒️ Author & Credits
+Developer: Ananya Vishwakarma
+
+Email: anvishwakarma52@gmail.com
+
+Target Organization: Developed exclusively as a trial assessment for Digital Heroes.
